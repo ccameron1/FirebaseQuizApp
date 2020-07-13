@@ -211,7 +211,7 @@ APP</string>
                                     <action selector="onGlobalButtonPressed:" destination="Frt-eU-8fC" eventType="touchUpInside" id="vBB-HY-FGx"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SELECT A CATAGORY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0p-bk-KJW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SELECT A CATEGORY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0p-bk-KJW">
                                 <rect key="frame" x="66" y="64" width="302" height="236"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="80"/>
@@ -219,7 +219,7 @@ APP</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SELECT A CATEGORY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ve9-2P-x0v">
-                                <rect key="frame" x="56" y="54" width="302" height="236"/>
+                                <rect key="frame" x="58" y="57" width="302" height="236"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="80"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -273,7 +273,7 @@ APP</string>
                                 </state>
                                 <connections>
                                     <action selector="onOKButtonPressed:" destination="KvE-76-6Rt" eventType="touchUpInside" id="RyB-ra-m5P"/>
-                                    <segue destination="b4j-8u-6x7" kind="modal" modalPresentationStyle="fullScreen" id="n0n-Wx-2ae"/>
+                                    <segue destination="jM1-CG-16Q" kind="modal" modalPresentationStyle="fullScreen" id="kh5-GB-sFk"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VrS-xh-Ucu">
@@ -435,7 +435,7 @@ APP</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-street-food-100-2" translatesAutoresizingMaskIntoConstraints="NO" id="jB0-8X-aI8">
-                                <rect key="frame" x="254" y="430" width="140" height="140"/>
+                                <rect key="frame" x="236" y="430" width="140" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.62587246190000001" green="0.20474747509999999" blue="0.1636720404" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
@@ -706,6 +706,7 @@ APP</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="m6R-wr-BuI"/>
         <segue reference="dbc-TB-MID"/>
     </inferredMetricsTieBreakers>
     <resources>
